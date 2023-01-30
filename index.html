@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+            (Valores atualizados em 08/03/2022)
+        </p>
+        <br><br>
+        <label for="moeda">Valor em R$ para:</label><br>
+        <input type="number" id="valor" placeholder="0" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Dolar</button>
+        <button type="submit" onclick="ConverterEuro()">Euro</button>
+        <button type="submit" onclick="ConverterBTC()">BTC</button>
+        <button type="submit" onclick="ConverterLibra()">Libra</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+</body>
+</html>
